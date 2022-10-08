@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .authentication-container {
+    @apply bg-white relative md:w-[768px] w-2/3 min-h-[480px] rounded-lg shadow-md overflow-hidden;
+  }
+}
